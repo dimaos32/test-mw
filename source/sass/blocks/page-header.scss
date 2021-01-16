@@ -1,8 +1,9 @@
 .page-header {
+  margin-bottom: 130px;
   padding-bottom: 180px;
   color: $page-header--txt;
   background:
-    url("../../img/header-bg.svg") calc(50% + 250px) 155px no-repeat,
+    url("../img/header-bg.svg") calc(50% + 250px) 155px no-repeat,
     $page-header--bg;
 
   h1 {

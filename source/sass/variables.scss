@@ -1,6 +1,9 @@
 // Colors
 
-$black: #000000;
+$black: #2e2d35;
+
+$grey-light: #f6f5f9;
+$grey-dark: #474351;
 
 $white: #ffffff;
 
@@ -33,6 +36,9 @@ $btn--bg-hover: $white;
 $page--txt: $black;
 $page--bg: $white;
 
+
+$features--item-txt: $grey-dark;
+$features--item-bg: $grey-light;
 
 $page-header--txt: $white;
 $page-header--bg: linear-gradient(90deg, $site 0%, $site-dim 100%);

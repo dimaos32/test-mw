@@ -1,0 +1,16 @@
+.logo {
+  display: block;
+
+  img {
+    display: block;
+  }
+
+  &:hover,
+  &:focus {
+    transform: scale(1.2);
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}

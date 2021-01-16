@@ -1,0 +1,32 @@
+.page-header {
+  padding-bottom: 180px;
+  color: $page-header--txt;
+  background:
+    url("../../img/header-bg.svg") calc(50% + 250px) 155px no-repeat,
+    $page-header--bg;
+
+  h1 {
+    max-width: 515px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.2;
+  }
+
+  p {
+    max-width: 515px;
+    margin: 0;
+    margin-bottom: 60px;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+}
+
+.page-header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 100px;
+}

@@ -4,7 +4,10 @@ $black: #000000;
 
 $white: #ffffff;
 
-$site: #a87b62;
+$site: #2d1686;
+$site-dim: #4e33b5;
+
+$site-accent: #f25b24;
 
 
 // Fonts
@@ -21,6 +24,18 @@ $desktop-width-not-max: 1229px;
 
 // Blocks
 
+$btn--txt: $white;
+$btn--bg: $site-accent;
+$btn--txt-hover: $site-accent;
+$btn--bg-hover: $white;
+
+
 $page--txt: $black;
 $page--bg: $white;
 
+
+$page-header--txt: $white;
+$page-header--bg: linear-gradient(90deg, $site 0%, $site-dim 100%);
+
+$site-nav--link: $white;
+$site-nav--link-hover: $site-accent;

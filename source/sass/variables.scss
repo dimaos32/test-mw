@@ -22,8 +22,6 @@ $segoe-ui: "Segoe UI", "TVerdana", sans-serif;
 
 $mobile-width: 767px;
 $tablet-width: 1023px;
-$desktop-width-only: 1024px;
-$desktop-width-not-max: 1229px;
 
 // Blocks
 
@@ -42,6 +40,9 @@ $features--item-bg: $grey-light;
 
 $page-header--txt: $white;
 $page-header--bg: linear-gradient(90deg, $site 0%, $site-dim 100%);
+
+$registration--txt: $white;
+$registration--bg: linear-gradient(90deg, $site 0%, $site-dim 100%);
 
 $site-nav--link: $white;
 $site-nav--link-hover: $site-accent;

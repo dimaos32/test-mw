@@ -4,6 +4,7 @@
   ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
     margin: 0;
     margin-left: -75px;
     padding: 0;
@@ -44,5 +45,13 @@
 
   &:active {
     opacity: 0.6;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .site-nav {
+    ul {
+      flex-direction: column;
+    }
   }
 }

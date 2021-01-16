@@ -31,3 +31,28 @@
   height: 100px;
   margin-bottom: 100px;
 }
+
+@media (max-width: $mobile-width) {
+  .page-header {
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+
+    h1 {
+      font-size: 34px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .page-header__top {
+    align-items: flex-start;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .page-header__logo {
+    margin-top: 12px;
+  }
+}

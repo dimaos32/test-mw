@@ -227,6 +227,8 @@ img {
   left: 0;
   right: 0;
   background-color: rgba(28, 24, 47, 0.3); }
+  .modal--closed {
+    display: none; }
 
 .modal__window {
   margin: auto;
@@ -345,6 +347,7 @@ img {
     margin-top: 12px; } }
 
 .page {
+  width: 100%;
   font-family: "Whitney", "Verdana", sans-serif;
   font-style: normal;
   font-weight: 350;

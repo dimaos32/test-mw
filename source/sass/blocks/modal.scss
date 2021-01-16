@@ -6,6 +6,10 @@
   left: 0;
   right: 0;
   background-color: $modal--bg;
+
+  &--closed {
+    display: none;
+  }
 }
 
 .modal__window {

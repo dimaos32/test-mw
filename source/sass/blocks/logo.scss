@@ -5,7 +5,7 @@
     display: block;
   }
 
-  &:hover,
+  &[href]:hover,
   &:focus {
     transform: scale(1.2);
   }

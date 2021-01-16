@@ -85,5 +85,24 @@
 
 </main>
 
+<div class="modal modal--authorization">
+  <form class="modal__window authorization" method="POST" action="https://echo.htmlacademy.ru">
+    <h2>Авторизация</h2>
+
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email" placeholder="Введите e-mail" required="">
+
+    <label for="password">Пароль</label>
+    <input type="password" name="password" id="password" placeholder="Введите пароль" required="">
+
+    <button class="btn btn--wide authorization__submit" type="submit">Войти</button>
+    <button class="authorization__close type=" button"="">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
+  </form>
+</div>
+
+<script src="js/main.js"></script>
+
 </body>
 </html>

@@ -1,9 +1,14 @@
 // Colors
 
-$black: #2e2d35;
+$black: #1c182f;
 
-$grey-light: #f6f5f9;
+$black-night: #1c182f;
+$black-almost: #2e2d35;
+
 $grey-dark: #474351;
+$grey: #918d9a;
+$grey-light: #dddae7;
+$grey-light-extra: #f6f5f9;
 
 $white: #ffffff;
 
@@ -31,12 +36,22 @@ $btn--txt-hover: $site-accent;
 $btn--bg-hover: $white;
 
 
-$page--txt: $black;
+$page--txt: $black-almost;
 $page--bg: $white;
 
 
+$modal--bg: rgba($black-night, 0.3);
+$modal--window-bg: $white;
+$modal--shadow: rgba($black, 0.25);
+
+
+$authorization--txt: $grey-dark;
+$authorization--input-border: $grey-light;
+$authorization--btn-close: $grey;
+$authorization--btn-close-hover: $site-accent;
+
 $features--item-txt: $grey-dark;
-$features--item-bg: $grey-light;
+$features--item-bg: $grey-light-extra;
 
 $page-header--txt: $white;
 $page-header--bg: linear-gradient(90deg, $site 0%, $site-dim 100%);
